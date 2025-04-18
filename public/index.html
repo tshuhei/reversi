@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>オセロ Webアプリ</title>
+    <style>
+      p {
+        /* 500pxより大きいサイズでは中央寄せ */
+        max-width: 500px;
+        margin: 2em auto;
+      }
+    </style>
+    <!--
+      This paragraph explains the rules of Othello.
+      1. Think about the order of placing the pieces and click.
+      2. If you can sandwich the opponent's pieces, you win.
+      3. If you can't sandwich the opponent's pieces, it's the opponent's turn.
+      4. The game ends when one player wins or all the squares are filled with pieces.
+    -->
+    <p>
+      オセロの駒を置く順番を考えて、相手より多くの駒を置きましょう。
+      <br />
+      使い方:
+      <br />
+        1. 駒を置く順番を考えて、クリックしてください。
+        2. 相手の駒を挟み込むことができた場合、勝ちます。
+        3. 挟み込むことができなかった場合、相手の番になります。
+      <br />
+        4. どちらかが勝つか、全てのマスに駒を置き終わったらゲームは終了します。
+    </p>
+  </head>
+  <body>
+    <noscript>このアプリを動作させるにはJavaScriptを有効にしてください。</noscript>
+    <div id="root"></div>
+  </body>
+</html>
